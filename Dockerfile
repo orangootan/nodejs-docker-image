@@ -1,6 +1,6 @@
 FROM alpine:3.6
-RUN apk add nodejs=6.10.3-r0 \
-    --repository http://dl-cdn.alpinelinux.org/alpine/edge/main \
+RUN apk add nodejs-current=7.10.0-r0 \
+    --repository http://dl-cdn.alpinelinux.org/alpine/edge/community \
     --no-cache
 ENTRYPOINT ["node"]
 CMD ["--version"]
