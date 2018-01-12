@@ -1,4 +1,4 @@
-FROM alpine:3.6
+FROM alpine:3.7
 RUN apk add libuv=1.15.0-r0 \
     --repository https://dl-cdn.alpinelinux.org/alpine/edge/main \
     --no-cache
